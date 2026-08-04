@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Mockup Upload</string>
+    <string name="share_label">Mockup Upload</string>
+    <string name="settings_title">Settings</string>
+
+    <string name="how_to_title">Mockup Upload</string>
+    <string name="how_to_body">Take a screenshot on your phone, then tap Share and choose “Mockup Upload”. The screenshot goes into the Mockup editor’s inbox and appears in the editor within ~20 seconds.\n\nTip: copy the page URL from Chrome’s address bar before you screenshot — the app will pre-fill the Source URL from your clipboard.\n\nUse “Test connection” below to confirm the server settings work.</string>
+
+    <string name="btn_test">Test connection</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_upload">Send to editor</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+
+    <string name="hint_base_url">Server base URL</string>
+    <string name="hint_token">Device token (mdt_…)</string>
+    <string name="hint_cf_id">Cloudflare Access Client Id</string>
+    <string name="hint_cf_secret">Cloudflare Access Client Secret</string>
+
+    <string name="hint_source_url">Source URL (the website in the screenshot)</string>
+    <string name="hint_operator">Operator (optional)</string>
+    <string name="hint_category">Category (optional)</string>
+    <string name="hint_note">Note (optional)</string>
+
+    <string name="token_help">Ask your colleague to mint a device token for your work email (mint_device_token) and paste the mdt_… value here. It identifies your uploads.</string>
+    <string name="cf_help">Cloudflare Access service token — required to reach the server. Paste the Client Id / Secret from your Zero Trust service token.</string>
+
+    <string name="auto_url_service_label">Mockup Upload — auto URL</string>
+    <string name="accessibility_description">Reads only the address bar in Chrome so screenshots you share get tagged with the page URL automatically. No other data is read or sent.</string>
+    <string name="btn_auto_url">Enable auto-URL (Accessibility)</string>
+    <string name="auto_url_on">Auto-URL: On — Chrome page URLs are captured automatically.</string>
+    <string name="auto_url_off">Auto-URL: Off — tap to enable so the page URL fills in by itself.</string>
+</resources>

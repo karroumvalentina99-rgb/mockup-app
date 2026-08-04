@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- phone body -->
+    <path
+        android:fillColor="#E8A832"
+        android:pathData="M40,26h28a7,7 0 0 1 7,7v42a7,7 0 0 1 -7,7h-28a7,7 0 0 1 -7,-7v-42a7,7 0 0 1 7,-7z" />
+    <!-- screen -->
+    <path
+        android:fillColor="#0C0C0E"
+        android:pathData="M39,34h30v40h-30z" />
+    <!-- camera / lens on screen -->
+    <path
+        android:fillColor="#E8A832"
+        android:pathData="M54,52m-6,0a6,6 0 1 0 12,0a6,6 0 1 0 -12,0" />
+    <!-- shutter tick -->
+    <path
+        android:fillColor="#E8A832"
+        android:pathData="M46,64h16v4h-16z" />
+</vector>
